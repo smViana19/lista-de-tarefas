@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f2f2; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    color: #6a0dad; 
+}
+
+.inputTarefa {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-tarefa {
+    background-color: #6a0dad; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-tarefa:hover {
+    background-color: #4d0a87; 
+}
+
+.tarefas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tarefas li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.apagar { 
+    background-color: #6a0dad; 
+    color: #fff; 
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.apagar:hover {
+    background-color: #4d0a87; 
+}
